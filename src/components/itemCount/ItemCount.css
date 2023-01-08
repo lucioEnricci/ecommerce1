@@ -1,0 +1,35 @@
+.main{
+    height: 80vh;
+}
+
+.main-box-count{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.main-box-count-onadd{
+    border: none;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: #3BCD4F;
+    font-size: 2rem;
+
+}
+
+.main-box-count-children button{
+  border: none;
+  width: 3rem;
+  border-radius: 2rem;
+  background-color: #3BCD4F;
+  font-size: 2rem;
+}
+
+.main-box-count-children p{
+    font-size: 2rem;
+    text-align: center;
+    margin:auto;
+}

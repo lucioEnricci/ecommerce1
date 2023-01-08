@@ -4,31 +4,30 @@
 
 //Modulos
 //Estilos
-import './ItemListContainer.css';
+import './ItemList.css'
 
 //Componentes
-//import Hooks from '../hooks/Hooks';
-import ItemCount from '../itemCount/ItemCount.js';
-//Core
+import Item from "../../item/Item";
 
+//Core
 
 /*########################################
                     Logica
 ##########################################*/
 
-const ItemListContainer = () => {
-    
- 
-
-
-  return (
-    <div>
-      <ItemCount stock = "15"/>
-    </div>
-  );
+const ItemList = () => {
+    return (
+        <div>
+            <p> Item List</p>
+        </div>
+    )
 }
+
+
+ 
 
 /*########################################
                     Exportaciones
 ##########################################*/
-export default ItemListContainer;
+
+export default ItemList;

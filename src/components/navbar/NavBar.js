@@ -17,7 +17,7 @@ import CardWidget from '../cardWidget/CardWidget.js'
                     Logica
 ##########################################*/
 
-function NavBar() {
+const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -56,6 +56,8 @@ function NavBar() {
     </Navbar>
   );
 }
+
+
 
 
 /*########################################

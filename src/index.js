@@ -18,7 +18,6 @@ import './index.css';
 import NavBar from './components/navbar/NavBar.js'
 import Footer from './components/footer/Footer.js'
 import ItemListContainer from './components/itemListContainer/ItemListContainer.js'
-
 //  WEBVITALS
 import reportWebVitals from './reportWebVitals';
 
