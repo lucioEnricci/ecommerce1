@@ -1,27 +1,24 @@
 /*########################################
                     Importaciones
 ##########################################*/
-
 //Modulos
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
 //Estilos
-import './Item.css'
+import './ItemDetail.css';
 
 //Componentes
-import ItemCount from '../itemCount/ItemCount.js'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import ItemCount from '../itemCount/ItemCount.js';
+
 //Core
 
 /*########################################
                     Logica
 ##########################################*/
-
-const Item = (props) => {
-
-
-    const {title, category, description, price, id} = props.data; 
+const ItemDetail = (props) => {
+    const {title, category, description, price} = props.data; 
 
     return (
         <Card className='card'>
@@ -31,18 +28,14 @@ const Item = (props) => {
           <Card.Text>
           {description}
           </Card.Text>
-          <Card.Link><Link to={`/product/${id}`}>Detail of product</Link></Card.Link>
-          <br/>
           <Button variant="primary">Add to cart</Button>
         </Card.Body>
         <ItemCount stock="10"/>
       </Card>
     )
-
-}
+};
 
 /*########################################
                     Exportaciones
 ##########################################*/
-
-export default Item;
+export default ItemDetail;

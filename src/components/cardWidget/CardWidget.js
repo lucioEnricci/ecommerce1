@@ -2,7 +2,7 @@
                     Importaciones
 ##########################################*/
 import './CardWidget.css';
-import  {BiDonateHeart}  from "react-icons/bi";
+import  {RiShoppingCart2Fill}  from "react-icons/ri";
 
 
 /*########################################
@@ -10,7 +10,7 @@ import  {BiDonateHeart}  from "react-icons/bi";
 ##########################################*/
 function CardWidget(props) {
   return (
-    <h1><BiDonateHeart/>{props.cantidad}</h1>
+    <h4><RiShoppingCart2Fill/>{props.cantidad}</h4>
   );
 }
 

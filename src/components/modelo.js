@@ -1,33 +1,21 @@
 /*########################################
                     Importaciones
 ##########################################*/
+import './modelo.css';
 
-//Modulos
-//Estilos
-import './ItemList.css'
-
-//Componentes
-import Item from "../../item/Item";
-
-//Core
 
 /*########################################
                     Logica
 ##########################################*/
-
-const ItemList = () => {
+const modelo = () => {
     return (
-        <div>
-            <p> Item List</p>
-        </div>
+        <p>
+            modelo
+        </p>
     )
-}
-
-
- 
+};
 
 /*########################################
                     Exportaciones
 ##########################################*/
-
-export default ItemList;
+export default modelo;

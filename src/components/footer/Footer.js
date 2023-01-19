@@ -17,14 +17,13 @@ import Card from 'react-bootstrap/Card';
 const Footer = () => {
   return (
     <Card className="text-center">
-      <Card.Header>Featured</Card.Header>
+      <Card.Header>App Web created with React JS ||  2023</Card.Header>
       <Card.Body>
         <Card.Title>Footer</Card.Title>
         <Card.Text>
-          Seguinos en nuestras redes y conoce mas sobre nuestro proyecto!
+          Seguinos en nuestras redes y conoce mas sobre nuestros productos!
         </Card.Text>
       </Card.Body>
-      <Card.Footer className="text-muted">2 days ago</Card.Footer>
     </Card>
   );
 }

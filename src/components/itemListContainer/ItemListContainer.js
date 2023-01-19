@@ -3,12 +3,17 @@
 ##########################################*/
 
 //Modulos
+
 //Estilos
+
 import './ItemListContainer.css';
 
 //Componentes
+import ItemList from '../itemList/ItemList.js';
+
 //import Hooks from '../hooks/Hooks';
-import ItemCount from '../itemCount/ItemCount.js';
+
+
 //Core
 
 
@@ -16,14 +21,14 @@ import ItemCount from '../itemCount/ItemCount.js';
                     Logica
 ##########################################*/
 
-const ItemListContainer = () => {
-    
- 
-
+const ItemListContainer = (props) => {
 
   return (
+
     <div>
-      <ItemCount stock = "15"/>
+      <p>{props.greeting}</p>
+      <h1>BANNER PUBLICITARIO</h1>
+      <ItemList/>
     </div>
   );
 }
