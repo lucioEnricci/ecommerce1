@@ -18,7 +18,8 @@ import NavBar from './components/navbar/NavBar.js'
 import Home from './components/home/Home.js'
 import AboutUs from './components/aboutUs/AboutUs.js'
 import ItemListContainer from './components/itemListContainer/ItemListContainer.js'
-import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer.js' 
+import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer.js'
+import ItemCategoryContainer from './components/itemCategoryContainer/ItemCategoryContainer.js'; 
 import Footer from './components/footer/Footer.js'
 //  WEBVITALS
 import reportWebVitals from './reportWebVitals';
@@ -41,6 +42,7 @@ root.render(
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/products' element={<ItemListContainer greeting='Estamos en los productos'/>}/>
         <Route exact path='/product/:productId' element={<ItemDetailContainer/>}/>
+        <Route exact path='/category/:categoryId' element={<ItemCategoryContainer/>}/>
         <Route exact path='/about' element={<AboutUs/>}/>
       </Routes>
 

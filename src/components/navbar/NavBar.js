@@ -30,6 +30,8 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" d-flex justify-content-end">
             <Nav.Link><Link to='/products'>Productos</Link></Nav.Link>
+            <Nav.Link><Link to='/category/electronics'>Electronica</Link></Nav.Link>
+            <Nav.Link><Link to='/category/jewelery'>Joyeria</Link></Nav.Link>
             <NavDropdown title="La Empresa" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to='/about'>Sobre Nosotros</Link></NavDropdown.Item>
               <NavDropdown.Divider />
