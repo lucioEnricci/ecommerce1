@@ -36,6 +36,7 @@ const ItemCount = (props) => {
     const addOne = () => {
         if (count < props.stock){
             setCount(count + 1);
+            props.guardarCantidadAComprar(count);
         }
     }
     
@@ -43,6 +44,7 @@ const ItemCount = (props) => {
     const disOne = () => {
         if (count > 0){
             setCount(count - 1);
+            props.guardarCantidadAComprar(count);
         }
     }
 
@@ -61,7 +63,6 @@ const ItemCount = (props) => {
                     <p> {count} </p>
                     <button onClick = {addOne}> + </button>
                 </div>
-                <button onClick = {onAdd} className = "main-box-count-onadd"> On Add</button>
             </div>   
         </main>
     )

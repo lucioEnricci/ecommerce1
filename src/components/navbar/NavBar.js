@@ -37,7 +37,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item>Contactenos</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link"><CardWidget cantidad='10' /></Nav.Link>
+            <Nav.Link><Link to='/cart'><CardWidget cantidad='10' /></Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
